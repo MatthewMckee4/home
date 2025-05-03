@@ -125,3 +125,6 @@ export NVM_DIR="$HOME/.nvm"
 
 
 alias gclean='git branch --merged | grep -Ev "(^\*|^\+|master|main|dev)" | xargs --no-run-if-empty git branch -d'
+
+fpath+=~/.zsh/completions
+autoload -Uz compinit && compinit
