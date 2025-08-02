@@ -25,8 +25,11 @@ git pull origin main
 - [cursor](https://cursor.com/en/downloads)
 - typst (pacman)
 - spotify (pacman via spotify-launcher)
+- [just](https://github.com/casey/just)
 
 ## Other Packages
 
 - glow - view markdown in the terminal
-
+- openssh
+- github cli
+- npm

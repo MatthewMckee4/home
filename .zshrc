@@ -112,7 +112,7 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 #cursor() {
-#    nohup /opt/cursor.appimage --no-sandbox "$@" >/dev/null 2>&1 &
+#    nohup /opt/cursor.AppImage --no-sandbox "$@" >/dev/null 2>&1 &
 #    disown
 #}
 
