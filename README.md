@@ -17,3 +17,16 @@ git remote add origin http://github.com/MatthewMckee4/home
 git pull origin main
 ```
 
+## Applications
+
+- [Oh My Zsh](https://ohmyz.sh/#install)
+- [uv](https://docs.astral.sh/uv/getting-started/installation/)
+- [rust](https://www.rust-lang.org/tools/install)
+- [cursor](https://cursor.com/en/downloads)
+- typst (pacman)
+- spotify (pacman via spotify-launcher)
+
+## Other Packages
+
+- glow - view markdown in the terminal
+

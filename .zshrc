@@ -111,10 +111,10 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-cursor() {
-    nohup /opt/cursor.appimage --no-sandbox "$@" >/dev/null 2>&1 &
-    disown
-}
+#cursor() {
+#    nohup /opt/cursor.appimage --no-sandbox "$@" >/dev/null 2>&1 &
+#    disown
+#}
 
 if [[ "$ARGV0" == "/opt/cursor.appimage" ]]; then
   unset ARGV0
@@ -132,3 +132,9 @@ autoload -Uz compinit && compinit
 
 alias sshmain='ssh-add ~/.ssh/id_ed25519_main'
 
+export XDG_CONFIG_HOME="$HOME/.config"
+export XDG_DATA_HOME="$HOME/.local/share"
+export XDG_STATE_HOME="$HOME/.local/state"
+export XDG_CACHE_HOME="$HOME/.cache"
+
+export PATH="$HOME/.local/bin:$PATH"
