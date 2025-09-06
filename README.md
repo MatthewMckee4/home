@@ -33,3 +33,17 @@ git pull origin main
 - openssh
 - github cli
 - npm
+
+## CPU Limiting
+
+Sometimes my CPU gets too hot
+
+```bash
+# Set the max frequency lower
+echo 1200000 | sudo tee /sys/devices/system/cpu/cpu*/cpufreq/scaling_max_freq
+
+cat /sys/devices/system/cpu/cpu0/cpufreq/scaling_governor
+cat /sys/devices/system/cpu/cpu0/cpufreq/scaling_cur_freq
+cat /sys/devices/system/cpu/cpu0/cpufreq/scaling_min_freq
+cat /sys/devices/system/cpu/cpu0/cpufreq/scaling_max_freq
+``` 

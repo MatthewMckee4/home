@@ -138,3 +138,14 @@ export XDG_STATE_HOME="$HOME/.local/state"
 export XDG_CACHE_HOME="$HOME/.cache"
 
 export PATH="$HOME/.local/bin:$PATH"
+
+if [[ -d "./.venv" ]]; then
+    source ./.venv/bin/activate
+fi
+
+export PATH="$HOME/.npm-global/bin:$PATH"
+export PATH=$PATH:/opt/Citrix/ICAClient
+
+alias zed='zeditor'
+
+. "$HOME/.local/share/../bin/env"
